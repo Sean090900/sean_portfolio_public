@@ -1,0 +1,9 @@
+name: sean_chandly_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - pysimplegui
+  - kivy
