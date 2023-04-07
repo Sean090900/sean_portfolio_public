@@ -6,7 +6,7 @@
 
 ## 1) BeerDieStatRecorder
 
-**Timeframe for Completion: 1 month**
+>**Timeframe for Completion: 1 month**
 
 **Description:**
 Beer Die is a game that has grown popular over recent years. As my freinds and I began to learn and grow our skills, we realized that our current method for keeping track of our wins, losses, etc, which involved a small, old whiteboard, was too primitive for our use. We needed a more modern way to compete and assert our dominance over lesser, more mediocre players! And that is when this program was born...
@@ -27,7 +27,7 @@ This program relies on Twilio SMS services for the creation of webhooks activate
 
 ## 2) RealEstateInvestmentFinder
 
-**Timeframe for Completion: 1 day**
+>**Timeframe for Completion: 1 day**
 
 **Description:**
 Investing in Real Estate is something I have been personally insterested in for a while. To assist me in finding prospective investment opportunities, I developed this program one day while I was home sick from work...
