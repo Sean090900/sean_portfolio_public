@@ -6,6 +6,9 @@
 
 ## 1) BeerDieStatRecorder
 
+**DEMO:**
+> Text the word "hi" to +1-341-999-7859
+
 **Duration of Project:**
 >1 month
 
@@ -30,6 +33,9 @@
 >- Software deployment
 
 ## 2) RealEstateInvestmentFinder
+
+**DEMO:**
+> Run through each consecutive cell in the Jupyter Notebook called "real_estate_investment_finder.ipynb"
 
 **Duration of Project:**
 >1 day
