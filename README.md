@@ -31,6 +31,7 @@
 >- Webhooks
 >- Persistent Data
 >- Software deployment
+>- Testing, Error Catching, and Debugging
 
 ## 2) RealEstateInvestmentFinder
 
@@ -55,4 +56,5 @@
 >-   PyWebIO
 >- Jupyter Notebooks
 >- Full Stack Development
+>- Testing and Debugging
 
