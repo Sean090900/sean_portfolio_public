@@ -6,18 +6,19 @@
 
 ## 1) BeerDieStatRecorder
 
->**Duration of Project: 1 month**
+**Duration of Project:**
+>1 month
 
 **Description:**
 
-Beer Die is a game that has grown popular over recent years. As my freinds and I began to learn and grow our skills, we realized that our current method for keeping track of our wins, losses, etc, which involved a small, old whiteboard, was too primitive for our use. We needed a more modern way to compete and assert our dominance over lesser, more mediocre players! And that is when this program was born...
+>Beer Die is a game that has grown popular over recent years. As my freinds and I began to learn and grow our skills, we realized that our current method for keeping track of our wins, losses, etc, which involved a small, old whiteboard, was too primitive for our use. We needed a more modern way to compete and assert our dominance over lesser, more mediocre players! And that is when this program was born...
 
 **What is Involved?**
 
-This program relies on Twilio SMS services for the creation of webhooks activated through personal phones. An SMS message with game information is sent by a user, which sets off an AWS Lambda function to store the data in a DynamoBD table. The user may create their own profile, edit there game stats, check other players game stats, and reference a list of commands accepted by the program. Storage in DynamoBD allows for persistent data to be referenced and edited at will by the user.
+>This program relies on Twilio SMS services for the creation of webhooks activated through personal phones. An SMS message with game information is sent by a user, which sets off an AWS Lambda function to store the data in a DynamoBD table. The user may create their own profile, edit there game stats, check other players game stats, and reference a list of commands accepted by the program. Storage in DynamoBD allows for persistent data to be referenced and edited at will by the user.
 
->**Programming Skills/Tools/Concpets Used:**
->
+**Programming Skills/Tools/Concpets Used:**
+
 >- Python
 >- Jupyter Notebooks 
 >- Visual Studio Code
