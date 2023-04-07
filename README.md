@@ -32,6 +32,7 @@
 >- Persistent Data
 >- Software deployment
 >- Testing, Error Catching, and Debugging
+>- Virtual Environments (environment.yml files)
 
 ## 2) RealEstateInvestmentFinder
 
@@ -57,4 +58,5 @@
 >- Jupyter Notebooks
 >- Full Stack Development
 >- Testing and Debugging
+>- Virtual Environments (environment.yml files)
 
