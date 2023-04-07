@@ -14,9 +14,6 @@ from helpers import *
 TWILIO_ACCOUNT_SID = os.environ.get("TWILIO_ACCOUNT_SID")
 TWILIO_AUTH_TOKEN = os.environ.get("TWILIO_AUTH_TOKEN")
 
-# TWILIO_ACCOUNT_SID = "AC8e7d8ce5f3323576de5a4b5a187d8d19"
-# TWILIO_AUTH_TOKEN = "e908857f66b3d10e2de02a39e5af6453"
-
 # Commands
 COMMANDS = {
     "New NAME": 'Create your new player profile. You can also use this command to blank your profile',
@@ -46,8 +43,6 @@ def lambda_handler(event, context):
     # Set up db table
     dynamodb = boto3.resource('dynamodb', region_name='us-west-1')
     table = dynamodb.Table("beer_die_stats_spring_2023")
-    # dynamodb = boto3.resource('dynamodb', region_name='us-west-1', endpoint_url="http://localhost:8000")
-    # table = dynamodb.Table("Stats8")
 
     # Decode message
     request_message = decode(event['Body']).upper().strip(' ').split(' ')
@@ -143,15 +138,3 @@ def lambda_handler(event, context):
     # Send error message if necessary
     else:
         response("Invalid message! That command/name was not found in our database. Text in 'Commands' to get a list of valid texts", number, TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
-
-
-
-### TESTING ###
-# event = {
-#     "To": '%2B16788206769',
-#     "From": '%2B12534323561',
-#     "Body": "Stats",
-# }
-# context = 0
-
-# lambda_handler(event, context)

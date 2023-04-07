@@ -46,7 +46,6 @@ def response(body, number, sid, token):
 	# Message 
 	message = client.messages.create(
 		to=number[3:], 
-		# from_="6788206769",
 		from_="3419997859",
 		body=body)
 
@@ -121,14 +120,14 @@ def remove(number, table):
 # Give seeds
 def seedings(table):
 	"""
-	The 'seedings()' function uses BDSM scores to develope seedings for tournaments and 
-	returns an organized message relaying the information
-	
-	Args:
-		table (db): The Dynamodb 'beer_die_stats' table
-	
-	Returns:
-		message (str): The organized seeding message
+		The 'seedings()' function uses BDSM scores to develope seedings for tournaments and 
+		returns an organized message relaying the information
+		
+		Args:
+			table (db): The Dynamodb 'beer_die_stats' table
+		
+		Returns:
+			message (str): The organized seeding message
 	"""
 	# Get names and BDSMs
 	scan = table.scan()
@@ -178,15 +177,15 @@ def seedings(table):
 # Getting/Displaying stats
 def stats(profile, table):
 	"""
-	The 'stats()' function organizes a player's stats from the table and 
-	organizes a message to be sent back.
-	
-	Args:
-		profile (json object): 
-		table (db): The Dynamodb 'beer_die_stats' table
-	
-	Returns:
-		message (str): The organized message to be sent to the player
+		The 'stats()' function organizes a player's stats from the table and 
+		organizes a message to be sent back.
+		
+		Args:
+			profile (json object): 
+			table (db): The Dynamodb 'beer_die_stats' table
+		
+		Returns:
+			message (str): The organized message to be sent to the player
 	"""
 	# Assign values to cooresponding stat
 	print(profile)
@@ -626,7 +625,7 @@ def fifas(table):
 	# Return message
 	return message
 
-# Calculate BDSM score
+# Calculate Beer Die Statistical Metric (BDSM) score
 def calc_bdsm(profile, table):
 	
 	# Get all the maxStats from the table
