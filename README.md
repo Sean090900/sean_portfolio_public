@@ -31,18 +31,19 @@
 
 ## 2) RealEstateInvestmentFinder
 
->**Duration of Project: 1 day**
+**Duration of Project:**
+>1 day
 
 **Description:**
 
-Investing in Real Estate is something I have been personally insterested in for a while. To assist me in finding prospective investment opportunities, I developed this program one day while I was home sick from work...
+>Investing in Real Estate is something I have been personally insterested in for a while. To assist me in finding prospective investment opportunities, I developed this program one day while I was home sick from work...
 
 **What is Involved?**
 
-This program utilizes Python packages, Pandas and PyWebIO, to create a basic web-app capable of identifying potential rental property investments. After inputing some basic personal financial information, this notebook will launch a simple web-app for entering information for a prospective rental property investment. The program will use this information to calculate expected down payment information, monthly cash flow, recomended monthly reserves based on nieghborhood and house price, net worth return on investment after 1 year, along with other useful information -- all for various different financing options. The result of the program is a Pandas DataFrame with all the necessary information needed for assessing the investment's profitability. 
+>This program utilizes Python packages, Pandas and PyWebIO, to create a basic web-app capable of identifying potential rental property investments. After inputing some basic personal financial information, this notebook will launch a simple web-app for entering information for a prospective rental property investment. The program will use this information to calculate expected down payment information, monthly cash flow, recomended monthly reserves based on nieghborhood and house price, net worth return on investment after 1 year, along with other useful information -- all for various different financing options. The result of the program is a Pandas DataFrame with all the necessary information needed for assessing the investment's profitability. 
 
->**Programming Skills/Tools/Concpets Used:**
->
+**Programming Skills/Tools/Concpets Used:**
+
 >- Python
 >-   Pandas
 >-   PyWebIO
