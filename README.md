@@ -6,7 +6,7 @@
 
 ## 1) BeerDieStatRecorder
 
->**Timeframe for Completion: 1 month**
+>**Duration of Project: 1 month**
 
 **Description:**
 
@@ -18,19 +18,19 @@ This program relies on Twilio SMS services for the creation of webhooks activate
 
 **Programming Skills/Tools/Concpets Used:**
 
-- Python
-- Jupyter Notebooks 
-- Visual Studio Code
-- AWS Lambda
-- AWS DynamoDB
-- Twilio
-- Webhooks
-- Persistent Data
-- Software deployment
+>- Python
+>- Jupyter Notebooks 
+>- Visual Studio Code
+>- AWS Lambda
+>- AWS DynamoDB
+>- Twilio
+>- Webhooks
+>- Persistent Data
+>- Software deployment
 
 ## 2) RealEstateInvestmentFinder
 
->**Timeframe for Completion: 1 day**
+>**Duration of Project: 1 day**
 
 **Description:**
 
@@ -42,9 +42,9 @@ This program utilizes Python packages, Pandas and PyWebIO, to create a basic web
 
 **Programming Skills/Tools/Concpets Used:**
 
-- Python
--   Pandas
--   PyWebIO
-- Jupyter Notebooks
-- Full Stack Development
+>- Python
+>-   Pandas
+>-   PyWebIO
+>- Jupyter Notebooks
+>- Full Stack Development
 
