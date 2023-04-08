@@ -7,7 +7,7 @@
 ## 1) BeerDieStatRecorder
 
 **DEMO:**
-> Text the word "hi" to +1-341-999-7859
+> Text the word "Hi" to +1-341-999-7859
 
 **Duration of Project:**
 >1 month
@@ -18,7 +18,7 @@
 
 **What is Involved?**
 
->This program relies on Twilio SMS services for the creation of webhooks activated through personal phones. An SMS message with game information is sent by a user, which sets off an AWS Lambda function to store the data in a DynamoBD table. The user may create their own profile, edit there game stats, check other players game stats, and reference a list of commands accepted by the program. Storage in DynamoBD allows for persistent data to be referenced and edited at will by the user.
+>This program relies on Twilio SMS services for the creation of webhooks activated through personal phones. An SMS message with game information is sent by a user, which sets off an AWS Lambda function to store the data in a DynamoBD table. The user may create their own profile, edit their game stats, check other players' game stats, and reference a list of commands accepted by the program. Storage in DynamoBD allows for persistent data to be referenced and edited by the user at will.
 
 **Programming Skills/Tools/Concpets Used:**
 
@@ -48,7 +48,7 @@
 
 **What is Involved?**
 
->This program utilizes Python packages, Pandas and PyWebIO, to create a basic web-app capable of identifying potential rental property investments. After inputing some basic personal financial information, this notebook will launch a simple web-app for entering information for a prospective rental property investment. The program will use this information to calculate expected down payment information, monthly cash flow, recomended monthly reserves based on nieghborhood and house price, net worth return on investment after 1 year, along with other useful information -- all for various different financing options. The result of the program is a Pandas DataFrame with all the necessary information needed for assessing the investment's profitability. 
+>This program utilizes Python packages, Pandas and PyWebIO, to create a basic web-app capable of identifying potential rental property investments. After inputing some basic personal financial information, this notebook will launch a simple web-app for entering information for a prospective rental property investment. The program will use this information to calculate expected down payment information, monthly cash flow, recomended monthly reserves based on neighborhood and house price, net worth return on investment after 1 year, along with other useful information -- all for various different financing options. The result of the program is a Pandas DataFrame with all the necessary information needed for assessing the investment's profitability. 
 
 **Programming Skills/Tools/Concpets Used:**
 
