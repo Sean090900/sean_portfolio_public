@@ -6,9 +6,6 @@
 
 ## 1) BeerDieStatRecorder
 
-**DEMO:**
-> Text the word "Hi" to +1-341-999-7859
-
 **Duration of Project:**
 >1 month
 
@@ -19,6 +16,7 @@
 **What is Involved?**
 
 >This program relies on Twilio SMS services for the creation of webhooks activated through personal phones. An SMS message with game information is sent by a user, which sets off an AWS Lambda function to store the data in a DynamoBD table. The user may create their own profile, edit their game stats, check other players' game stats, and reference a list of commands accepted by the program. Storage in DynamoBD allows for persistent data to be referenced and edited by the user at will.
+>This program is no longer maintained due to the associated costs, so a demo is not available.
 
 **Programming Skills/Tools/Concpets Used:**
 
@@ -35,9 +33,6 @@
 >- Virtual Environments (environment.yml files)
 
 ## 2) RealEstateInvestmentFinder
-
-**DEMO:**
-> Run through each consecutive cell in the Jupyter Notebook called "real_estate_investment_finder.ipynb"
 
 **Duration of Project:**
 >1 day
