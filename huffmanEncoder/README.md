@@ -15,7 +15,7 @@ Steps for running this package:
 
 Output will be written to the specified output file after processing the input file.
 
-## Usage:
+## Usage
 
 For encoding clear text:
 ```bash
@@ -27,9 +27,12 @@ For decoding encoded text:
 python -m lab3 decode in_file out_file frequency_table_file
 ```
 
-Positional arguments:
-  "encode" / "decode"           Tells the package what task is being done
-  in_file                       Input File Pathname
-  out_file                      Output File Pathname
-  frequency_table_file          Frequency Table Pathname
+**Positional arguments:**
+
+|Argument                      |Description                                        |
+|------------------------------|---------------------------------------------------|
+|"encode" / "decode"           |Tells the package what task is being done          |
+|in_file                       |Input File Path Name                               |
+|out_file                      |Output File Path Name                              |
+|frequency_table_file          |Frequency Table Pathname                           |
 
