@@ -1,13 +1,8 @@
-# sean_portfolio_public
+# Sean Dickson's Software Development Portfolio
 
-#### Personal projects for displaying programming competency
+Hello! Thank you for taking the time to check out this repo! Here, I have pushed up a few of my personal projects that I believe show a large extent of my coding abilities... 
 
-#### Hello! Thank you for taking the time to check out this repo! Here, I have pushed up a few of my personal projects that I believe show a large extent of my coding abilities... 
-
-## 1) BeerDieStatRecorder
-
-**Duration of Project:**
->1 month
+## 1. Huffman Encoder Module (huffmanEncoder)
 
 **Description:**
 
@@ -32,10 +27,7 @@
 >- Testing, Error Catching, and Debugging
 >- Virtual Environments (environment.yml files)
 
-## 2) RealEstateInvestmentFinder
-
-**Duration of Project:**
->1 day
+## 2. Multi-Sorter Module (multiSorter)
 
 **Description:**
 
