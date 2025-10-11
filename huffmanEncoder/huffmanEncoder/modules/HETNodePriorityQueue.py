@@ -1,6 +1,24 @@
 # Creator: Sean Dickson
 
 class HETNodePriorityQueue():
+    """
+    A priority queue for Huffman Tree nodes, implemented using insertion sort.
+
+    This class maintains an ordered list of nodes based on their frequency values
+    (i.e., priority). Lower-frequency nodes are prioritized first to align with
+    the Huffman encoding algorithm, which repeatedly merges the two least
+    frequent nodes into a new combined node.
+
+    Internally, insertion sort is used to insert new nodes into the correct position
+    in the queue. This approach, while less efficient for large datasets than a
+    binary heap, is simple and effective for Huffman trees where the number of
+    nodes is relatively small.
+
+    Attributes
+    ----------
+    queue : list
+        A list of Huffman nodes sorted by ascending frequency.
+    """
     
     def __init__(self):
         """
