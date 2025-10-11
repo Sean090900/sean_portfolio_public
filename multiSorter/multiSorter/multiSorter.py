@@ -1,4 +1,4 @@
-# lab4.py
+# multiSorter.py
 #
 # Contains the main functions used for lab4...
 #     quicksort_option1():   Quicksorting algorithm (variant 1)
@@ -19,7 +19,6 @@ import sys
 
 # Set recursion limit to 20000, as necessary for larger files
 sys.setrecursionlimit(20000)
-
 
 def quicksort_option1(integers, lowIndex, highIndex, counters):
     """

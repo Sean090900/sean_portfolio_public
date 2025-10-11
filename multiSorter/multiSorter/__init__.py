@@ -5,4 +5,4 @@
 #
 # Creator: Sean Dickson
 
-from lab4.lab4 import process_files
+from multiSorter.multiSorter import process_files

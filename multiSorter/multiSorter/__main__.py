@@ -1,14 +1,14 @@
 # __main__.py
 # 
 # When this module is called as a standalone program, it take in command line
-#    arguments from user and pass them to lab4.py.
+#    arguments from user and pass them to multiSorter.py.
 # 
-# Creator: Sean Dickson (Sourced/adapted from Lab0.zip example Python Lab)
+# Creator: Sean Dickson
 
 from pathlib import Path
 import argparse
 
-from lab4.lab4 import process_files
+from multiSorter.multiSorter import process_files
 
 # Build required arguments to be passed in by user
 arg_parser = argparse.ArgumentParser()
