@@ -37,6 +37,8 @@ COMMANDS = {
     "Commands": 'Returns all the possible commands the user can input (with descriptions)',
 }
 
+
+
 # lambda function
 def lambda_handler(event, context):
     

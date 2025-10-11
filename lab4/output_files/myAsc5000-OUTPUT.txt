@@ -1,0 +1,35 @@
+1. Quicksort (Variation 1): Pivot = 1st Item, Stopping Cases = Partions of size 1 and 2
+
+Comparisons: 12507524
+Exchanges: 28
+
+
+2. Quicksort (Variation 2): Pivot = 1st Item, Insertion Sort used for partitions <= 100
+
+Comparisons: 12507377
+Exchanges: 27
+
+
+3. Quicksort (Variation 3): Pivot = 1st Item, Insertion Sort used for partitions <= 50
+
+Comparisons: 12511202
+Exchanges: 27
+
+
+4. Quicksort (Variation 4): Pivot = Median-of-Three, Stopping Cases = Partions of size 1 and 2
+
+Comparisons: 71592
+Exchanges: 28
+
+
+5. Natural Merge Sort:
+
+Comparisons: 5000
+Exchanges: 0
+
+
+6. Merge Sort (Normal):
+
+Comparisons: 61808
+Exchanges: 0
+
