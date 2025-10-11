@@ -1,6 +1,6 @@
 # huffmanEncoder.py
 #
-# Contains the main functions used for lab3...
+# Contains the main functions used for huffmanEncoder...
 #   huffmanBuildTree() builds the Huffman Encoding Tree (HET)
 #   buildCharacterFrequencyTable() models the frequency table used to build the HET
 #   huffmanGetCodes() obtains codes for each character in the HET

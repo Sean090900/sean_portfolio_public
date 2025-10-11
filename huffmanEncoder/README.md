@@ -1,9 +1,9 @@
 # Huffman Encoder
-Created By: Sean Dickson
+**Created By:** Sean Dickson
 
-IDE Used: Visual Studio Code
+**IDE Used:** Visual Studio Code
 
-Python Version: 3.13.0
+**Python Version:** 3.13.0
 
 ## Overview
 explain what this is, and that it runs as a python module
