@@ -15,11 +15,11 @@ Output will be written to the 'output_files' directory, with a name mirroring th
 
 ### Usage:
 ```bash
-python -m multiSorter input_path
+python -m multiSorter input_files/myRan1000.txt
 ```
 
 **Positional arguments:**
-|Argument |Description         |
-|---------|--------------------|
-|in_file  |Input File Pathname |
+|Argument    |Description         |
+|------------|--------------------|
+|input_path  |Input File Pathname |
 
