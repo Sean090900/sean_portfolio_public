@@ -1,6 +1,6 @@
 # multiSorter.py
 #
-# Contains the main functions used for lab4...
+# Contains the main functions used for MultiSorter...
 #     quicksort_option1():   Quicksorting algorithm (variant 1)
 #     quicksort_option2():   Quicksorting algorithm (variant 2)
 #     quicksort_option3():   Quicksorting algorithm (variant 3)
@@ -328,8 +328,8 @@ def process_files(input_file, output_file):
         quicksort_option1(integers_copy, 0, len(integers_copy)-1, counters)
 
         # Write out comparisons and exchanges made
-        output_file.write(f'Comparisons: {counters['comparisons']}\n')
-        output_file.write(f'Exchanges: {counters['exchanges']}\n\n')
+        output_file.write(f'Comparisons: {counters["comparisons"]}\n')
+        output_file.write(f'Exchanges: {counters["exchanges"]}\n\n')
 
         # If size is <= 50, print the sorted results
         if len(integers_copy) <= 50:
@@ -358,8 +358,8 @@ def process_files(input_file, output_file):
         quicksort_option2(integers_copy, 0, len(integers_copy)-1, counters)
 
         # Write out comparisons and exchanges made
-        output_file.write(f'Comparisons: {counters['comparisons']}\n')
-        output_file.write(f'Exchanges: {counters['exchanges']}\n\n')
+        output_file.write(f'Comparisons: {counters["comparisons"]}\n')
+        output_file.write(f'Exchanges: {counters["exchanges"]}\n\n')
 
         # If size is <= 50, print the sorted results
         if len(integers_copy) <= 50:
@@ -388,8 +388,8 @@ def process_files(input_file, output_file):
         quicksort_option3(integers_copy, 0, len(integers_copy)-1, counters)
 
         # Write out comparisons and exchanges made
-        output_file.write(f'Comparisons: {counters['comparisons']}\n')
-        output_file.write(f'Exchanges: {counters['exchanges']}\n\n')
+        output_file.write(f'Comparisons: {counters["comparisons"]}\n')
+        output_file.write(f'Exchanges: {counters["exchanges"]}\n\n')
 
         # If size is <= 50, print the sorted results
         if len(integers_copy) <= 50:
@@ -418,8 +418,8 @@ def process_files(input_file, output_file):
         quicksort_option4(integers_copy, 0, len(integers_copy)-1, counters)
 
         # Write out comparisons and exchanges made
-        output_file.write(f'Comparisons: {counters['comparisons']}\n')
-        output_file.write(f'Exchanges: {counters['exchanges']}\n\n')
+        output_file.write(f'Comparisons: {counters["comparisons"]}\n')
+        output_file.write(f'Exchanges: {counters["exchanges"]}\n\n')
 
         # If size is <= 50, print the sorted results
         if len(integers_copy) <= 50:
@@ -448,8 +448,8 @@ def process_files(input_file, output_file):
         naturalMerge(integers_copy, counters)
 
         # Write out comparisons and exchanges made
-        output_file.write(f'Comparisons: {counters['comparisons']}\n')
-        output_file.write(f'Exchanges: {counters['exchanges']}\n\n')
+        output_file.write(f'Comparisons: {counters["comparisons"]}\n')
+        output_file.write(f'Exchanges: {counters["exchanges"]}\n\n')
 
         # If size is <= 50, print the sorted results
         if len(integers_copy) <= 50:
@@ -479,8 +479,8 @@ def process_files(input_file, output_file):
         mergeSort(integers_copy, 0, len(integers_copy)-1, counters)
 
         # Write out comparisons and exchanges made
-        output_file.write(f'Comparisons: {counters['comparisons']}\n')
-        output_file.write(f'Exchanges: {counters['exchanges']}\n\n')
+        output_file.write(f'Comparisons: {counters["comparisons"]}\n')
+        output_file.write(f'Exchanges: {counters["exchanges"]}\n\n')
 
         # If size is <= 50, print the sorted results
         if len(integers_copy) <= 50:

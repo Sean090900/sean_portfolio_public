@@ -15,7 +15,7 @@ Output will be written to the 'output_files' directory, with a name mirroring th
 
 ### Usage:
 ```bash
-python -m lab4 input_path
+python -m multiSorter input_path
 ```
 
 **Positional arguments:**

@@ -31,7 +31,7 @@ in_path = Path(args.in_file)
 out_path = Path(args.out_file) 
 freq_table_path = Path(args.freq_table)
 
-# Try calling 'process_files' function from lab3.py
+# Try calling 'process_files' function from huffmanEncoder.py
 try:
     with in_path.open('r') as input_file, out_path.open('w') as output_file, freq_table_path.open('r') as table_file:
         process_files(encode, input_file, output_file, table_file)
