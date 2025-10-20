@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath('__file__')))
 APP_DIR_NAME = 'src'
 APP_DIR = os.path.join(BASE_DIR, APP_DIR_NAME)
 ARCHIVE_DIR = os.path.join(BASE_DIR, 'archive')
-FUNCTION_NAME = 'twilio-lambda-API'
+FUNCTION_NAME = 'twilio-lambda-API' 
 
 def main():
 
