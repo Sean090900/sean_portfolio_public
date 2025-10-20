@@ -1,8 +1,0 @@
-name: real_estate_env
-channels:
-  - conda-forge
-  - defaults
-dependencies:
-  - numpy
-  - pandas
-  - pysimplegui

@@ -1,49 +1,62 @@
 # Sean Dickson's Software Development Portfolio
 
-Hello! Thank you for taking the time to check out this repo! Here, I have pushed up a few of my personal projects that I believe show a large extent of my coding abilities... 
+Welcome! 👋
 
-## 1. Huffman Encoder Module (huffmanEncoder)
+Thanks for visiting my portfolio repository!
 
-**Description:**
+Here you’ll find a collection of personal projects that highlight my approach to problem-solving, software design, and technical creativity. Each project reflects how I build real-world, practical solutions.
 
->Beer Die is a game that has grown popular over recent years. As my freinds and I began to learn and grow our skills, we realized that our current win/loss record strategy, involving an old whiteboard, was far too primitive for our purposes. We needed a more modern way to compete and assert our dominance over lesser, more mediocre players! And that is when the BeerDieStatRecorder was born...
+## 1. Huffman Encoder | Mar 2025
 
-**What is Involved?**
+**Project Description:**
 
->This program relies on Twilio SMS services for the creation of webhooks activated through personal phones. An SMS message with game information is sent by a user, which sets off an AWS Lambda function to store the data in a DynamoDB table. The user may create their own profile, edit their game stats, check other players' game stats, and reference a list of commands accepted by the program. Storage in DynamoBD allows for persistent data to be referenced and edited by the user at will.
->This program is no longer maintained due to the associated costs, so a demo is not available.
+HuffmanEncoder is a Python-based implementation of the classic Huffman coding algorithm, used in data compression. It efficiently converts text or files into compact binary representations by assigning shorter codes to more frequent characters.
 
-**Programming Skills/Tools/Concpets Used:**
+**How It Works:**
+  - Encodes and decodes arbitrary strings or files into binary form.
+  - Demonstrates tree-based data structures, priority queues, and bitwise manipulation.
+  - Designed with modular Python classes for reusability and clarity.
 
->- Python
->- Jupyter Notebooks 
->- Visual Studio Code
->- AWS Lambda
->- AWS DynamoDB
->- Twilio
->- Webhooks
->- Persistent Data
->- Software deployment
->- Testing, Error Catching, and Debugging
->- Virtual Environments (environment.yml files)
+**Core Skills:** 
 
-## 2. Multi-Sorter Module (multiSorter)
+Python, Algorithm Design, OOP, Recursion, Data Structures
 
-**Description:**
+## 2. Multi-Sorter | Apr 2025
 
->Investing in Real Estate is something I have been personally insterested in for a while. To assist me in finding prospective investment opportunities, I developed this program...
+**Project Description:**
 
-**What is Involved?**
+Multi-Sorter is a command-line utility that allows users to experiment with multiple sorting algorithms side-by-side. It was designed as a playground for understanding algorithmic complexity and runtime trade-offs in real-world data handling.
 
->This program utilizes Python packages, Pandas and PyWebIO, to create a basic web-app capable of calculating financial metrics for potential rental property investments. After inputing some basic financial information, this notebook will launch a simple web-app for entering information for a prospective rental property investment. The program will use this information to calculate expected down payment information, monthly cash flow, recomended monthly reserves based on neighborhood and house price, net worth return on investment after 1 year, along with other useful information -- all for various different financing options. The result of the program is a Pandas DataFrame with all the necessary information needed for assessing the investment's profitability. 
+**How It Works:**
+  - Supports both built-in and custom sorting methods (e.g., insertion sort, merge sort).
+  - Outputs detailed runtime analysis for comparison between algorithms.
 
-**Programming Skills/Tools/Concpets Used:**
+**Core Skills:** 
 
->- Python
->-   Pandas
->-   PyWebIO
->- Jupyter Notebooks
->- Full Stack Development
->- Testing and Debugging
->- Virtual Environments (environment.yml files)
+Python, CLI Applications, Complexity Analysis, Algorithm Optimization
 
+## 3. Beer Die Stat Recorder | Aug 2020
+
+>“Because friendly competition deserves better than a whiteboard.”
+
+**Project Description:**
+
+Beer Die is a competitive game my friends and I used to play often. Tracking our wins, losses, and stats on a whiteboard just wasn’t cutting it — so I built a cloud-powered stats app that automates everything.
+
+**How It Works:**
+
+Uses Twilio SMS webhooks to trigger game data uploads from text messages.
+  - AWS Lambda functions handle message parsing and data processing.
+  - AWS DynamoDB provides persistent, cloud-hosted storage for user stats.
+  - Players can view, edit, and compare their records through text commands.
+
+**Note:**
+
+This is an earlier project, included here to illustrate the progression of my software development skills over time. The system has been archived due to AWS/Twilio costs, but the full source code and workflow are preserved here for demonstration.
+
+**Core Skills:**
+  - Python, AWS Lambda, DynamoDB, Twilio API
+  - Webhooks & Cloud Functions
+  - API Design, Data Persistence, Error Handling
+  - Deployment Automation
+  - Virtual Environments (environment.yml)
